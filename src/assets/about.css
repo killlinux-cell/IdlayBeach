@@ -1,0 +1,35 @@
+.about-us {
+  background-color: #f8f8f8;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-content h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+.cta-button {
+  background-color: #ff9800;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: white;
+  color: #ff9800;
+}

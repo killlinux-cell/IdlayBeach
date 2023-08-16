@@ -1,0 +1,41 @@
+.hero {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  background-image: url('./bg5.jpg'); 
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.hero-content {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.hero-content p {
+  max-width: 600px; 
+  margin: 0 auto;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: white;
+  color: #333;
+}
