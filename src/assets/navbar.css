@@ -38,3 +38,92 @@
 .nav-links a:hover {
   color: #ff9800; 
 }
+
+/* HAMBURGER MENU */
+.hamburger-menu-container {
+	display: none;
+	margin-right: 3rem;
+}
+
+.hamburger-menu {
+	position: relative;
+	width: 1.5rem;
+	height: 1.5px;
+	background-color: var(--default-color);
+	transition: transform 300ms ease-in-out;
+}
+
+.hamburger-menu::before,
+.hamburger-menu::after {
+	content: "";
+	width: 1.5rem;
+	height: 1.5px;
+	background-color: var(--default-color);
+	transition: transform 300ms ease-in-out;
+}
+
+.hamburger-menu::before {
+	position: absolute;
+	top: -7px;
+}
+
+.hamburger-menu::after {
+	position: absolute;
+	top: 7px;
+}
+
+.close {
+	height: 0;
+	color: aqua;
+}
+
+.close::before {
+	transform: rotate(-45deg) translate(-4px, 4px);
+}
+
+.close::after {
+	transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* RESPONSIVENESS */
+
+.nav-mobile {
+	background-color: var(--highlight-color);
+	z-index: 998;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	transition: 0.2s;
+	position: fixed;
+	top: 0;
+	left: 100%;
+	width: 100%;
+}
+
+.mobile-element {
+	font-size: 2.25em;
+	font-weight: 500;
+	transition: 0.2s;
+	margin: 40px;
+}
+
+.mobile-element:hover {
+	color: var(--default-color);
+}
+
+@media screen and (max-width: 925px) {
+
+
+	.hamburger-menu-container {
+		display: block;
+	}
+
+	.nav-links {
+		display: none;
+	}
+  .social-icons{
+    display: none;
+  }
+}
