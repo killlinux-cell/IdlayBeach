@@ -1,49 +1,43 @@
 .contact {
   background-color: #f8f8f8;
-  padding: 60px 0;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.contact-title {
   text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-title h2 {
+  font-size: 2rem;
+  color: #333;
 }
 
 .contact-content {
-  max-width: 600px;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-.contact-content h2 {
-  font-size: 2rem;
+.contact-hours {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.contact-hours h3 {
+  font-size: 1.5rem;
+  color: #333;
   margin-bottom: 20px;
 }
 
-.form-group {
-  margin-bottom: 20px;
-  text-align: left;
+.contact-hours ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-.form-group label {
-  display: block;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.form-group input,
-.form-group textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-.submit-button {
-  background-color: #ff9800;
-  color: white;
-  padding: 10px 20px;
-  font-size: 1rem;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.submit-button:hover {
-  background-color: white;
-  color: #ff9800;
+.contact-hours li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
 }

@@ -1,24 +1,26 @@
 <template>
-  <section class="image-grid" id="gallery">
-    <div class="image-item">
-      <img src="../assets/bg1.jpg" alt="Image 1">
-    </div>
-    <div class="image-item">
-      <img src="../assets/bg2.jpg" alt="Image 2">
-    </div>
-    <div class="image-item">
-      <img src="../assets/bg3.jpg" alt="Image 3">
-    </div>
-    <div class="image-item">
-      <img src="../assets/bg4.jpg" alt="Image 4">
-    </div>
-    <div class="image-item">
-      <img src="../assets/bg5.jpg" alt="Image 5">
-    </div>
-    <div class="image-item">
-      <img src="../assets/bg5.jpg" alt="Image 5">
-    </div>
-  </section>
+<div class="grid-container">
+  <div class="grid-item">
+    <img src="../assets/hotel.jpg" alt="Image 1">
+  </div>
+  <div class="grid-item">
+    <img src="../assets/hot.jpg" alt="Image 2">
+  </div>
+  <div class="grid-item">
+    <img src="../assets/etoi.jpg" alt="Image 3">
+  </div>
+
+
+    <div class="grid-item">
+    <img src="../assets/salle.jpg" alt="Image 1">
+  </div>
+  <div class="grid-item">
+    <img src="../assets/recep.jpg" alt="Image 2">
+  </div>
+  <div class="grid-item">
+    <img src="../assets/chq.jpg" alt="Image 3">
+  </div>
+</div>
 </template>
 
 <script>

@@ -1,7 +1,7 @@
 <template>
 
   <nav class="navbar">
-    <div class="company-logo">Ildlay</div>
+    <div class="company-logo">Etoile du Sud</div>
     <div class="nav-links">
       <a href="#hero">Accueil</a>
       <a href="#about">À propos</a>

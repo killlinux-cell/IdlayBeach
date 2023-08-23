@@ -1,6 +1,7 @@
 <template>
      <footer class="footer">
-    <p>&copy; 2023 Ma Plage. Tous droits réservés.</p>
+    <p>&copy; Etoile du sud. Tous droits réservés.</p>
+    <p>CDML (SA)</p>
   </footer>
 </template>
 

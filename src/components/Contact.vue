@@ -1,36 +1,44 @@
 <template>
-     <section class="contact" id="cta">
-    <div class="contact-content">
-      <h2>Nous contacter</h2>
-      <form action="#" method="POST">
-        <div class="form-group">
-          <label for="name">Nom :</label>
-          <input type="text" id="name" name="name" required>
-        </div>
-        <div class="form-group">
-          <label for="email">Email :</label>
-          <input type="email" id="email" name="email" required>
-        </div>
-        <div class="form-group">
-          <label for="message">Message :</label>
-          <textarea id="message" name="message" rows="4" required></textarea>
-        </div>
-        <div class="form-group">
-          <label for="message">Téléphone : 00000000</label>
-          
-        </div>
-        <button type="submit" class="submit-button">Envoyer</button>
-      </form>
+    <section class="contact" id="cta">
+  <div class="contact-title">
+    <h2>Nous Contacter</h2>
+  </div>
+  <div class="contact-content">
+    <div class="contact-hours">
+      <h3>Heures d'Ouverture</h3>
+      <ul>
+        <li>Lundi : 9h00 - 18h00</li>
+        <li>Mardi : 9h00 - 18h00</li>
+        <li>Mercredi : 9h00 - 18h00</li>
+        <li>Jeudi : 9h00 - 18h00</li>
+        <li>Vendredi : 9h00 - 18h00</li>
+        <li>Samedi : Fermé</li>
+        <li>Dimanche : Fermé</li>
+      </ul>
+    </div> 
+    <div class="contact-hours">
+       <h3>Contact</h3>
+      <ul>
+        <li>Téléphone : 2721302939</li>
+        <li>Mail : info@hoteletoiledusud.org</li>
+        <li>Localisation : Grand-Bassam, Comoé District, Côte d'Ivoire</li>
+      </ul>
     </div>
-  </section>
+    </div>
+
+</section>
+
 </template>
 
 <script>
 
 export default{
     name: 'Contact',
+    
 }
 </script>
+
+
 
 <style>
 @import '../style.css';
