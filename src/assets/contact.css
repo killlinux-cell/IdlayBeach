@@ -1,4 +1,4 @@
-.contact {
+/* .contact {
   background-color: #f8f8f8;
   padding: 20px;
   margin-top: 40px;
@@ -41,3 +41,43 @@
   font-size: 1.2rem;
   margin-bottom: 10px;
 }
+ */
+
+
+.contact-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+        h2 {
+            color: #333;
+        }
+
+        h3 {
+            color: #555;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .contact-hours {
+            border-top: 1px solid #ccc;
+            padding-top: 20px;
+        }
